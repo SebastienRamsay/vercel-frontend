@@ -7,7 +7,7 @@ function AuthContextProvider(props){
   const [cartLength, setCartLength] = useState(0)
 
   async function getLoggedIn() { 
-    const loggedInRes = await fetch('http://ramsays-detailing.onrender.com/LoggedIn', {
+    const loggedInRes = await fetch('https://ramsays-detailing.onrender.com/LoggedIn', {
       method: 'GET',
       credentials: 'include'
     })
@@ -16,7 +16,7 @@ function AuthContextProvider(props){
   }
 
   async function getCartLength() { 
-    const cartResponse = await fetch('http://ramsays-detailing.onrender.com/api/cart', {
+    const cartResponse = await fetch('https://ramsays-detailing.onrender.com/api/cart', {
       method: 'GET',
       credentials: 'include'
     })
