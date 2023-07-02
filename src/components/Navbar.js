@@ -43,7 +43,7 @@ const Navbar = () => {
                 <div>
                   <Link to="/cart" class="absolute right-40 top-9 flex flex-col items-center">
                     <h1 class="absolute ml-1"><b>{cartLength}</b></h1>
-                    <img alt="cart" src='/images/cart.png' class="max-h-11"/>
+                    <img alt="cart" src='http://ramsays-detailing.onrender.com/images/cart.png' class="max-h-11"/>
                   </Link>
                   <a href='https://www.instagram.com/ramsays_detailing/' target="_blank" rel="noreferrer" class="absolute right-56 top-12 mr-2">
                     <img src='http://ramsays-detailing.onrender.com/images/instagram.png' alt="instagram" class="max-h-6"/>
