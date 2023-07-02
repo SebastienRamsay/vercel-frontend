@@ -5,7 +5,7 @@ function LogOutBtn() {
     const { getLoggedIn } = useContext(AuthContext)
 
     async function logout() {
-        await fetch('https://ramsays-detailing.onrender.com/logout', {
+        await fetch('http://ramsays-detailing.onrender.com/logout', {
             method: 'GET',
             credentials: 'include'
         })
