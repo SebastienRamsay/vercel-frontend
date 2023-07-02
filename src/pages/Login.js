@@ -27,9 +27,9 @@ const Login = () =>{
                 {/* {error && <div className="error">{error}</div>} */}
             </form>
             <p class="p-5 font-bold text-xl">or</p>
-            <Link to="http://ramsays-detailing.onrender.com/auth/google">
+            <Link to="https://ramsays-detailing.onrender.com/auth/google">
                 <button class="bg-blue-600 flex items-center">
-                    <img src='http://ramsays-detailing.onrender.com/images/google.png' alt="google" class="h-auto w-10 p-1"/>
+                    <img src='https://ramsays-detailing.onrender.com/images/Google.png' alt="google" class="h-auto w-10 p-1"/>
                     <span class="mx-2 text-gray-50">Sign in with Google</span>
                 </button>
             </Link>

@@ -18,7 +18,7 @@ const Navbar = () => {
     <header class="text-white">
       <div class="bg-primary-0 pt-5 pl-10 pr-20 pb-2">
         <Link to="/" class="inline-block text-center">
-          <img class="h-auto w-64" src='http://ramsays-detailing.onrender.com/images/LOGO.png' alt="logo"/>
+          <img class="h-auto w-64" src='https://ramsays-detailing.onrender.com/images/LOGO.png' alt="logo"/>
           <h1 class="title">Ramsay's Detailing</h1>
         </Link>
         <nav class="">
@@ -43,16 +43,16 @@ const Navbar = () => {
                 <div>
                   <Link to="/cart" class="absolute right-40 top-9 flex flex-col items-center">
                     <h1 class="absolute ml-1"><b>{cartLength}</b></h1>
-                    <img alt="cart" src='http://ramsays-detailing.onrender.com/images/cart.png' class="max-h-11"/>
+                    <img alt="cart" src='https://ramsays-detailing.onrender.com/images/Cart.png' class="max-h-11"/>
                   </Link>
                   <a href='https://www.instagram.com/ramsays_detailing/' target="_blank" rel="noreferrer" class="absolute right-56 top-12 mr-2">
-                    <img src='http://ramsays-detailing.onrender.com/images/instagram.png' alt="instagram" class="max-h-6"/>
+                    <img src='https://ramsays-detailing.onrender.com/images/Instagram.png' alt="instagram" class="max-h-6"/>
                   </a>
                   <a href='https://www.facebook.com/ramsaydetailing' target="_blank" rel="noreferrer" class="absolute right-64 top-10 mr-2">
-                    <img src='http://ramsays-detailing.onrender.com/images/facebook.png' alt="facebook" class="max-h-10"/>
+                    <img src='https://ramsays-detailing.onrender.com/images/Facebook.png' alt="facebook" class="max-h-10"/>
                   </a>
                   <a href="tel:+16137692098" class="absolute right-72 top-12 mr-6">
-                    <img src='http://ramsays-detailing.onrender.com/images/phone.png' alt="phone" class="max-h-6"/>
+                    <img src='https://ramsays-detailing.onrender.com/images/Phone.png' alt="phone" class="max-h-6"/>
                   </a>
                 </div>
               )}  
