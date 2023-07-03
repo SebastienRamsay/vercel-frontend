@@ -3,7 +3,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import AuthContext from '../context/AuthContext'
 
 const FullServiceDetails = ({ service }) => {
-  const imageDirectory = '/images/';
+  const imageDirectory = 'https://ramsays-detailing.onrender.com/images/';
   
   const imagePath = imageDirectory + service.localImageName;
   const tomorrow = new Date();
